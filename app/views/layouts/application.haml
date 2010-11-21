@@ -6,4 +6,17 @@
     = javascript_include_tag :defaults
     = csrf_meta_tag
   %body
-    = yield
+    #header
+      = render "layouts/mck_header"
+    .table
+      .row
+        .cell#navigation
+          %ul
+            %li
+              = link_to "Computing Home", {:controller => :home}
+        .cell#content
+          = yield
+      .row
+    #footer
+      %a{:href => "http://www.mckendree.edu"}
+        %img{:src => "http://lance.mckendree.edu/csi/images/header_links/McKendree_Footer_Logo.gif"}
