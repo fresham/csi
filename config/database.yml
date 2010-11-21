@@ -5,7 +5,7 @@ development: &defaults
   database: csi_development
   pool: 5
   username: rails
-  password: password
+  password:
   socket: /var/run/mysqld/mysqld.sock
 
 test:
