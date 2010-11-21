@@ -1,4 +1,6 @@
 Csi::Application.routes.draw do
+  get "catalog/index"
+
   get "faculty/index"
 
   get "home/index"
