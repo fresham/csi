@@ -1,0 +1,17 @@
+development: &defaults
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: csi_development
+  pool: 5
+  username: rails
+  password: password
+  socket: /var/run/mysqld/mysqld.sock
+
+test:
+  <<: *defaults
+  database: csi_test
+
+production:
+  <<: *defaults
+  database: csi_production
