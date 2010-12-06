@@ -4,7 +4,7 @@ development: &defaults
   reconnect: false
   database: csi_development
   pool: 5
-  username: root
+  username: rails
   password:
   socket: /var/run/mysqld/mysqld.sock
 
