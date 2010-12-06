@@ -1,9 +1,69 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-
-one:
-  title: MyString
-  content: MyText
-
-two:
-  title: MyString
-  content: MyText
+--- 
+blurb_00006: 
+  created_at: 2010-12-06 01:24:46 Z
+  title: Interactive Media
+  updated_at: 2010-12-06 01:24:46 Z
+  id: 6
+  content: The Interactive Media major provides students with a strong theoretical foundation and specializes in software development such as Web tools, artificial intelligence, graphics, and other interactive software techniques. Students majoring in Interactive Media are prepared for careers in application software development and to pursue further education and advanced degrees.
+blurb_00007: 
+  created_at: 2010-12-06 01:25:04 Z
+  title: About our division
+  updated_at: 2010-12-06 01:25:04 Z
+  id: 7
+  content: We currently have five full time faculty members, two specializing in computer science, and three in information systems. Our classes are small in size, and we encourage an informal atmosphere conducive to learning, cooperation among students, and exchange of ideas. We maintain a computer lab for the use of our students, which is an invaluable tool in many of our courses. In addition, the lab is staffed with tutors qualified to assist those who need help in their mathematics and computer science courses.
+blurb_00008: 
+  created_at: 2010-12-06 01:28:55 Z
+  title: About our graduates
+  updated_at: 2010-12-06 01:28:55 Z
+  id: 8
+  content: |-
+    Some of the companies that our recent graduates are working for include: TekSystems, Lockheed Martin, The Defense Information Systems Agency (United States Air Force), NCI, A.G. Edwards, SBC, Anheuser Busch, and Boeing. Others have gone on to graduate studies at schools such as Southern Illinois University, Washington University, Iowa State, and Purdue University. Here is a sampling of what some of them had to say about their learning experience:
+    <br>
+    <br>
+    "McKendree provided me with the tools and knowledge to succeed in the job market"
+    <br>
+    <i>-CJ Dulaney, Computer Programmer/Analyst , Boeing</i>
+    <br>
+    <br>
+    "The small class sizes provided me with the opportunity to get to know my teachers and classmates better, and at the same time gave me a more professional approach to my college career."
+    <br>
+    <i>-Greg Albertina, IT/Business Development Manager, Illinois Distributing</i>
+    <br>
+    <br>
+    "McKendree College offers students small classes and individualized attention that lead to strong educational backgrounds.  The knowledge and skills I gained at McKendree helped me get the job I wanted at a great company."
+    <br>
+    <i>-Tasha Bury, Mgr., Product Supply Systems, Anheuser-Busch, Inc.</i>
+blurb_00001: 
+  created_at: 2010-12-06 00:33:59 Z
+  title: Why major in Computing?
+  updated_at: 2010-12-06 01:22:44 Z
+  id: 1
+  content: |-
+    Because it is a fascinating field, never boring, and very much in demand. Also, salaries and the number of openings for information technology (IT) related jobs are on the rise. A  quick look at one of the many online job search sites specializing in IT jobs shows an impressive array of available positions both for people with a thorough technical background and for graduates with a combination of technical and management skills.
+    <br>
+    <br>
+    The programs we offer are built upon a strong technical foundation of programming, hardware, and networking courses, providing students with thorough training in problem solving and critical thinking. The programs also prepare students for a lifetime of learning in the technology field, a critical requirement in an area that is constantly changing and growing.
+blurb_00002: 
+  created_at: 2010-12-06 01:23:24 Z
+  title: Computer Science
+  updated_at: 2010-12-06 01:23:24 Z
+  id: 2
+  content: The Computer Science program is built upon a strong foundation of mathematics and science, requiring courses in calculus, linear algebra, and physics. Students receive rigorous technical training, which prepares them for employment as system programmers, software developers, or future graduate studies in computer science.
+blurb_00003: 
+  created_at: 2010-12-06 01:23:47 Z
+  title: Computer Information Systems
+  updated_at: 2010-12-06 01:23:47 Z
+  id: 3
+  content: The Computer Information Systems (CIS) program has strong ties to business, requiring courses in economics, accounting, and management. Students are exposed to these business courses while simultaneously being exposed to solid technical training. This provides them with the ideal skill set for a wide range of information technology jobs or future graduate studies in CIS or business (MBA).
+blurb_00004: 
+  created_at: 2010-12-06 01:24:10 Z
+  title: Computational Science
+  updated_at: 2010-12-06 01:24:10 Z
+  id: 4
+  content: The Computational Science major emphasizes the use of computers and mathematics in the development of solutions to complex problems. Students majoring in Computational Science take a variety of mathematics and computer science courses that provide the needed theoretical foundation. Additionally, students take courses in a field of specialization, which provides an application area. Students may specialize in Economics and Finance, Biology, Chemistry, or Mathematics. Students in consultation with a faculty member may also develop a field of specialization that meets individual interests. Computational Science majors are prepared for a variety of careers in industry, research labs, and engineering facilities. Computational Science majors are also prepared to pursue advanced degrees in areas such as Computer Science, Mathematics, Bioinformatics, Mathematical Finance, and Computational Science.
+blurb_00005: 
+  created_at: 2010-12-06 01:24:29 Z
+  title: Information Technology
+  updated_at: 2010-12-06 01:24:29 Z
+  id: 5
+  content: Information Technology majors study the practical applications of computing and communications technology. Most organizations have become dependent on networked computing infrastructure to the degree that they could not function without the infrastructure. Information Technology majors are prepared to select, manage and maintain the technological infrastructure of an organization. Students with a major in Information Technology obtain positions in organizations planning and managing the organization's technology.
