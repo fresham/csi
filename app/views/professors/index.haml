@@ -1,0 +1,9 @@
+%table
+  - @professors.each do |professor|
+    %tr
+      %td
+        = link_to professor.name, professor
+      %td
+        = link_to 'Destroy', professor, :confirm => 'Are you sure?', :method => :delete
+%br
+= link_to 'New Professor', new_professor_path

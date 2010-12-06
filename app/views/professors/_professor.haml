@@ -1,0 +1,16 @@
+%div.clear
+  %div.professor-image
+    %img{:src => professor.picture_url, :width => '77', :height => '77'}
+
+  %div.professor-info
+    %p
+      %b
+        = "#{professor.name}, #{professor.title}"
+        %br
+        = professor.department
+      %br
+      = mail_to professor.email
+      %br
+      = "#{professor.phone_number}; #{professor.location}"
+      %br
+      = link_to "Webpage", professor.webpage

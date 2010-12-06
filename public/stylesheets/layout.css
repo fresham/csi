@@ -26,6 +26,15 @@ body {
         width: 751px;
         padding: 10px;
         background-color: white; }
+        body .table .row #content .professor-image {
+          float: left;
+          position: relative;
+          padding: 20px; }
+        body .table .row #content .professor-info {
+          float: left;
+          position: relative; }
+        body .table .row #content .clear {
+          clear: both; }
 
 #footer img {
   width: 958px;

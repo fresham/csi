@@ -1,0 +1,61 @@
+--- 
+professor_00001: 
+  name: Kian L. Pokorny, Ph.D.
+  location: Clark Hall 202a
+  created_at: 2010-12-06 03:09:10 Z
+  title: Associate Professor
+  updated_at: 2010-12-06 03:09:10 Z
+  picture_url: /images/professors/kian.jpg
+  id: 1
+  phone_number: (618) 537-6440
+  webpage: http://www.mckendree.edu/facultystaff.aspx?id=71
+  department: Division of Computing
+  email: klpokorny@mckendree.edu
+professor_00002: 
+  name: James D. Feher, Ph.D.
+  location: Clark Hall 207
+  created_at: 2010-12-06 03:17:28 Z
+  title: Associate Professor
+  updated_at: 2010-12-06 03:17:28 Z
+  picture_url: /images/professors/jim.jpg
+  id: 2
+  phone_number: (618) 537-6956
+  webpage: http://www.mckendree.edu/facultystaff.aspx?id=39
+  department: Division of Computing
+  email: jdfeher@mckendree.edu
+professor_00003: 
+  name: Mostafa G. Mostafa, Ph.D.
+  location: Radcliff, Ky
+  created_at: 2010-12-06 03:18:42 Z
+  title: Assistant Professor
+  updated_at: 2010-12-06 03:18:42 Z
+  picture_url: /images/professors/mostafa.jpg
+  id: 3
+  phone_number: (270) 351-5003, Ext. 13
+  webpage: http://www.mckendree.edu/facultystaff.aspx?id=322
+  department: Division of Computing
+  email: mmostafa@mckendree.edu
+professor_00004: 
+  name: Fred Underwood
+  location: Clark Hall LL-4
+  created_at: 2010-12-06 03:19:39 Z
+  title: Assistant Professor
+  updated_at: 2010-12-06 03:19:39 Z
+  picture_url: /images/professors/fred.jpg
+  id: 4
+  phone_number: (618) 537-6852
+  webpage: http://www.mckendree.edu/facultystaff.aspx?id=84
+  department: Division of Computing
+  email: funderwo@mckendree.edu
+professor_00005: 
+  name: Nathan White
+  location: Clark Hall 208
+  created_at: 2010-12-06 03:20:32 Z
+  title: Instructor
+  updated_at: 2010-12-06 03:20:32 Z
+  picture_url: /images/professors/nathan.jpg
+  id: 5
+  phone_number: (618) 537-6588
+  webpage: http://www.mckendree.edu/facultystaff.aspx?id=273
+  department: Division of Computing
+  email: nawhite@mckendree.edu

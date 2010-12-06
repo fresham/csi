@@ -10,11 +10,24 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101206003108) do
+ActiveRecord::Schema.define(:version => 20101206030314) do
 
   create_table "blurbs", :force => true do |t|
     t.string   "title"
     t.text     "content"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "professors", :force => true do |t|
+    t.string   "name"
+    t.string   "title"
+    t.string   "department"
+    t.string   "email"
+    t.string   "phone_number"
+    t.string   "location"
+    t.string   "webpage"
+    t.string   "picture_url"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
