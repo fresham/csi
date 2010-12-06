@@ -1,4 +1,6 @@
 Csi::Application.routes.draw do
+  resources :blurbs
+
   get "catalog/index"
 
   get "faculty/index"

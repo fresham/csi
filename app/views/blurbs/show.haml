@@ -1,0 +1,12 @@
+%p#notice
+  = notice
+
+%h4
+  = @blurb.title
+
+%p
+  != @blurb.content
+
+= link_to 'Edit', edit_blurb_path(@blurb)
+|
+= link_to 'Back', blurbs_path
