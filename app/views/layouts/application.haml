@@ -10,14 +10,16 @@
       = render "layouts/mck_header"
     .table
       .row
-        .cell#navigation
+        .cell.navigation
           %ul
             %li
               = link_to "Computing Home", {:controller => :home}
             %li
               = link_to "Faculty", {:controller => :faculty}
-            %li
-              = link_to "Areas of Study", {:controller => :catalog}
+            %li.admin
+              = link_to "Professors", {:controller => :professors}
+            %li.admin
+              = link_to "Blurbs", {:controller => :blurbs}
         .cell#content
           %center
             %h3
@@ -26,4 +28,4 @@
       .row
     #footer
       %a{:href => "http://www.mckendree.edu"}
-        %img{:src => "http://lance.mckendree.edu/csi/images/header_links/McKendree_Footer_Logo.gif"}
+        %img{:src => "/images/layout/McKendree_Footer_Logo.gif"}

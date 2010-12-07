@@ -1,40 +1,37 @@
 body {
-  background-image: url("http://lance.mckendree.edu/csi/images/bg.gif"); }
-  body #header #banner {
-    position: relative;
-    bottom: -10px; }
-  body #header img {
-    border: 0px; }
-  body #header .table {
-    position: relative;
-    bottom: -5px; }
-  body .table {
-    display: table; }
-    body .table .row {
-      display: table-row; }
-      body .table .row .cell {
-        display: table-cell; }
-      body .table .row #navigation {
-        width: 187px;
-        background-color: #532380; }
-        body .table .row #navigation ul {
-          list-style: none; }
-          body .table .row #navigation ul li a {
-            color: white;
-            text-decoration: none; }
-      body .table .row #content {
-        width: 751px;
-        padding: 10px;
-        background-color: white; }
-        body .table .row #content .professor-image {
-          float: left;
-          position: relative;
-          padding: 20px; }
-        body .table .row #content .professor-info {
-          float: left;
-          position: relative; }
-        body .table .row #content .clear {
-          clear: both; }
+  background-image: url("/images/layout/bg.gif"); }
+
+#header #banner {
+  position: relative;
+  bottom: -10px; }
+#header img {
+  border: 0px; }
+#header .table {
+  position: relative;
+  bottom: -5px; }
+
+.table {
+  display: table; }
+
+.row {
+  display: table-row; }
+
+.cell {
+  display: table-cell; }
+
+.navigation {
+  width: 187px;
+  background-color: #532380; }
+  .navigation ul {
+    list-style: none; }
+    .navigation ul li a {
+      color: white;
+      text-decoration: none; }
+
+#content {
+  width: 751px;
+  padding: 10px;
+  background-color: white; }
 
 #footer img {
   width: 958px;
