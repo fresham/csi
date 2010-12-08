@@ -1,9 +1,55 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-
-one:
-  question: MyString
-  answer: MyText
-
-two:
-  question: MyString
-  answer: MyText
+--- 
+question_00008: 
+  created_at: 2010-12-08 03:28:44 Z
+  updated_at: 2010-12-08 03:28:44 Z
+  id: 8
+  question: Where do I buy the software?
+  answer: You may purchase physical media for items directly from Microsoft for a small fee. You are also given the option to download these items directly from Microsoft. This software comes with a key registered to you when you download or purchase and is your copy to use even after you graduate.
+question_00009: 
+  created_at: 2010-12-08 03:29:32 Z
+  updated_at: 2010-12-08 03:29:32 Z
+  id: 9
+  question: I either never got or I forgot my password. Help!
+  answer: "Just go to <a href=\"http://msdn06.e-academy.com/elms/Storefront/Home.aspx?campus=mc_lcscis\">McKendree's MSDN page</a> then click on Login. From there click on the link under \xE2\x80\x98I've forgotten my password!\xE2\x80\x99 Enter your McKendree email address as your username, and your password will be resent to your McKendree email address."
+question_00001: 
+  created_at: 2010-12-08 02:19:23 Z
+  updated_at: 2010-12-08 02:19:23 Z
+  id: 1
+  question: What is the CSI MSDN?
+  answer: The CSI MSDN subscription allows all McKendree students taking CSI courses to purchase or download registered copies of Microsoft products with the exception of MS Office.
+question_00002: 
+  created_at: 2010-12-08 03:02:28 Z
+  updated_at: 2010-12-08 03:08:08 Z
+  id: 2
+  question: Where can I find the MSDN page for McKendree?
+  answer: "The link to the MSDN homepage is here: <a href=\"http://msdn06.e-academy.com/elms/Storefront/Home.aspx?campus=mc_lcscis\" >McKendree MSDN Webpage</a>"
+question_00003: 
+  created_at: 2010-12-08 03:25:16 Z
+  updated_at: 2010-12-08 03:25:16 Z
+  id: 3
+  question: Am I eligible for this software purchase agreement?
+  answer: Any student taking a CSI course or any faculty member teaching a CSI course is eligible.
+question_00004: 
+  created_at: 2010-12-08 03:25:59 Z
+  updated_at: 2010-12-08 03:25:59 Z
+  id: 4
+  question: What titles can I get through the CSI MSDN agreement?
+  answer: A list of all the software that can be obtained through MSDN can be found <a href="http://msdn06.e-academy.com/main/admin/adminreports/product_availability2.cfm?parentID=2&type2ID=47&type3ID=206">here</a>.
+question_00005: 
+  created_at: 2010-12-08 03:27:24 Z
+  updated_at: 2010-12-08 03:27:24 Z
+  id: 5
+  question: How does this work?
+  answer: In many cases, you may download the software directly from Microsoft once you login to the McKendree MSDN website. Physical media for some of the titles is available from this website for a nominal fee.
+question_00006: 
+  created_at: 2010-12-08 03:27:46 Z
+  updated_at: 2010-12-08 03:27:46 Z
+  id: 6
+  question: Do I have to remove the software after I stop taking CSI classes?
+  answer: No. After you pay for the software, you officially own your copy, and are free to use it for as long as you like.
+question_00007: 
+  created_at: 2010-12-08 03:28:28 Z
+  updated_at: 2010-12-08 03:28:28 Z
+  id: 7
+  question: Is Microsoft Office included in this plan?
+  answer: No. Unfortunately Microsoft Office is not included through MSDN. If you want Office, you will have to purchase it from either a retail store, or through Microsoft's web page. You may also want to consider <a href="http://www.openoffice.org/">Open Office</a>. Open Office is an open source product that is available for free download and provides a fully functional office suite.
