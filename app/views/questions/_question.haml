@@ -1,0 +1,7 @@
+%div.question
+  %p
+    %a{:name => "question#{question.id}"}
+    %b
+      = question.question
+    %br
+    = question.answer.html_safe

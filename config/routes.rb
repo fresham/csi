@@ -1,4 +1,8 @@
 Csi::Application.routes.draw do
+  get "msdn_faq/index"
+
+  resources :questions
+
   resources :professors
 
   resources :blurbs

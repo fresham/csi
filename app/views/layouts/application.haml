@@ -16,10 +16,16 @@
               = link_to "Computing Home", {:controller => :home}
             %li
               = link_to "Faculty", {:controller => :faculty}
+            %li
+              = link_to "MSDN FAQ", {:controller => :msdn_faq}
+            %li
+              %br
             %li.admin
               = link_to "Professors", {:controller => :professors}
             %li.admin
               = link_to "Blurbs", {:controller => :blurbs}
+            %li.admin
+              = link_to "Questions", {:controller => :questions}
         .cell#content
           %center
             %h3

@@ -1,0 +1,2 @@
+module MsdnFaqHelper
+end

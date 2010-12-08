@@ -1,0 +1,11 @@
+%div.msdn-faq-list
+  %hr
+    %ul
+      - @questions.each do |question|
+        %li
+          %a{:href => "index#question#{question.id}"}
+            = question.question
+  %hr
+
+  - @questions.each do |question|
+    = render :partial => 'questions/question', :locals => {:question => question}
