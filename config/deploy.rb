@@ -32,10 +32,10 @@ namespace :sass do
 end
 
 namespace :fixtures do
-  desc 'Loads default fixtures'
-  task :load, :roles => :app do
-    invoke_command "cd #{latest_release}; RAILS_ENV=#{rails_env} rake db:fixtures:load"
-  end
+  #desc 'Loads default fixtures'
+  #task :load, :roles => :app do
+  #  invoke_command "cd #{latest_release}; RAILS_ENV=#{rails_env} rake db:fixtures:load"
+  #end
 
   after 'deploy:start', 'fixtures:load'
 end
