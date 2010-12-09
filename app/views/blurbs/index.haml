@@ -4,6 +4,6 @@
       %td
         = link_to blurb.title, blurb
       %td
-        = link_to 'Destroy', blurb, :confirm => 'Are you sure?', :method => :delete
+        = link_to 'Destroy', blurb_path(blurb), :confirm => 'Are you sure?', :method => :delete
 %br
 = link_to 'New Blurb', new_blurb_path
